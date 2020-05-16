@@ -10,5 +10,6 @@ module.exports = {
     `gatsby-plugin-typescript`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-preload-fonts`,
+    `gatsby-plugin-react-helmet`,
   ],
 }
