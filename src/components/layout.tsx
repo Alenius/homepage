@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: #00243f;
     color: #f9f9f9;
     font-size: 16px;
-    font-family: Oswald, Helvetica, Arial, sans-serif ;
+    font-family: Montserrat, Helvetica, Arial, sans-serif ;
     margin: 0 auto;
     max-width: 90%;
     padding: 0 1rem;

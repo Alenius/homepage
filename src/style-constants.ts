@@ -1,4 +1,6 @@
-const colors = {}
+const colors = {
+  white: "#f9f9f9",
+}
 
 const dimensions = {
   fontSize: {
@@ -7,7 +9,8 @@ const dimensions = {
     m: 1,
     l: 1.25,
     xl: 2,
-    xxl: 3,
+    xxl: 2.5,
+    xxxl: 3,
   },
   headingSizes: {
     h1: 2.441,

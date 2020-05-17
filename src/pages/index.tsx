@@ -4,6 +4,7 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 
 import { dimensions } from "../style-constants"
+import { SiteLink } from "../components/Link"
 
 const CenteringDiv = styled.div`
   height: 100vh;
@@ -20,14 +21,18 @@ const CenteringDiv = styled.div`
   }
 `
 
-const NameDiv = styled.div`
-  font-size: ${dimensions.fontSize.xl}rem;
-  font-family: Arial, Helvetica, sans-serif;
+const Title = styled.h1`
+  font-size: ${dimensions.fontSize.xxl}rem;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
 `
 
 const PresentationText = styled.p`
   font-size: ${dimensions.fontSize.m}rem;
-  font-family: Arial, Helvetica, sans-serif;
+`
+
+const LinkContainer = styled.div`
+  padding-top: ${dimensions.containerPadding.regular};
+  padding-bottom: ${dimensions.containerPadding.regular};
 `
 
 export default () => (
@@ -38,17 +43,24 @@ export default () => (
       <link rel="icon" href="./static/favicon.ico" type="image/x-icon" />
     </Helmet>
     <CenteringDiv>
-      <NameDiv>
+      <Title>
         <p>
           adam
           <br />
           alenius
         </p>
-      </NameDiv>
+      </Title>
       <PresentationText>
         Welcome! I write code and stuff. In this page I will collect links to my
         small projects that I do for fun.
       </PresentationText>
+      <LinkContainer>
+        <h2>links</h2>
+        <SiteLink
+          title="MovieRandomizer"
+          url="https://aa-movie-list.netlify.app"
+        />
+      </LinkContainer>
     </CenteringDiv>
   </Layout>
 )
