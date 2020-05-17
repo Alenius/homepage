@@ -35,7 +35,7 @@ export default () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>adamalenius</title>
-      <link rel="icon" href="favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="./static/favicon.ico" type="image/x-icon" />
     </Helmet>
     <CenteringDiv>
       <NameDiv>
