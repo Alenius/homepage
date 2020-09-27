@@ -30,6 +30,10 @@ const PresentationText = styled.p`
   font-size: ${dimensions.fontSize.m}rem;
 `
 
+const LinkDescription = styled.p`
+  font-size: ${dimensions.fontSize.s}rem;
+`
+
 const LinkContainer = styled.div`
   padding-top: ${dimensions.containerPadding.regular};
   padding-bottom: ${dimensions.containerPadding.regular};
@@ -60,6 +64,15 @@ export default () => (
           title="MovieRandomizer"
           url="https://aa-movie-list.netlify.app"
         />
+        <LinkDescription>
+          This is a page that helps you find a movie to watch. It takes the
+          highest 250 rated movies on IMDB and randomizes them
+        </LinkDescription>
+        <SiteLink title="qviz" url="https://qviz-game.herokuapp.com" />
+        <LinkDescription>
+          A simple quiz app where you can create your own quizzes or play other
+          peoples quizzes
+        </LinkDescription>
       </LinkContainer>
     </CenteringDiv>
   </Layout>
