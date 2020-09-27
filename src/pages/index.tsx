@@ -32,6 +32,7 @@ const PresentationText = styled.p`
 
 const LinkDescription = styled.p`
   font-size: ${dimensions.fontSize.s}rem;
+  max-width: 500px;
 `
 
 const LinkContainer = styled.div`
@@ -65,13 +66,13 @@ export default () => (
           url="https://aa-movie-list.netlify.app"
         />
         <LinkDescription>
-          This is a page that helps you find a movie to watch. It takes the
-          highest 250 rated movies on IMDB and randomizes them
+          This is a page that helps you find a movie to watch. It presents you
+          with a random movie from IMDB's top 250 highest rated list.
         </LinkDescription>
         <SiteLink title="qviz" url="https://qviz-game.herokuapp.com" />
         <LinkDescription>
           A simple quiz app where you can create your own quizzes or play other
-          peoples quizzes
+          peoples quizzes.
         </LinkDescription>
       </LinkContainer>
     </CenteringDiv>
